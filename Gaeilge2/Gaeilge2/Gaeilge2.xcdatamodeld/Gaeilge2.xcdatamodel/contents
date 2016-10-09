@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15F34" minimumToolsVersion="Automatic">
+    <entity name="Adjective" representedClassName=".Adjective" syncable="YES">
+        <attribute name="eng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Adverb" representedClassName=".Adverb" syncable="YES">
+        <attribute name="eng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Noun" representedClassName=".Noun" syncable="YES">
+        <attribute name="declension" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gs" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="np" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Preposition" representedClassName=".Preposition" syncable="YES">
+        <attribute name="eng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Verb" representedClassName=".Verb" syncable="YES">
+        <attribute name="conditional1p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional1s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional2p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional2s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional3p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional3s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditionalImpersonal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eng" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future1p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future1s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future2p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future2s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future3p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future3s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="futureImpersonal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast1p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast1s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast2p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast2s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast3p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast3s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPastImpersonal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperativep" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperatives" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pastParticiple" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present1p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present1s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present2p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present2s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present3p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present3s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentImpersonal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentParticiple" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive1p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive1s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive2p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive2s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive3p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive3s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctiveImpersonal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast1p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast1s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast2p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast2s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast3p" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast3s" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePastImpersonal" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Adjective" positionX="-54" positionY="36" width="128" height="75"/>
+        <element name="Adverb" positionX="-45" positionY="144" width="128" height="75"/>
+        <element name="Noun" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Preposition" positionX="-54" positionY="45" width="128" height="75"/>
+        <element name="Verb" positionX="-63" positionY="36" width="128" height="763"/>
+    </elements>
+</model>

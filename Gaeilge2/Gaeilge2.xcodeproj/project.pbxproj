@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D208FC4A1D6D298300274CAD /* Noun+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208FC481D6D298300274CAD /* Noun+CoreDataProperties.swift */; };
+		D208FC4B1D6D298300274CAD /* Noun.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208FC491D6D298300274CAD /* Noun.swift */; };
+		D2129DB41D6FF81400533B3B /* VerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2129DB31D6FF81400533B3B /* VerbViewController.swift */; };
+		D21EF9D41D73955600C3AF68 /* TenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EF9D31D73955600C3AF68 /* TenseViewController.swift */; };
+		D21EF9D91D755FEE00C3AF68 /* VerbDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21EF9D81D755FEE00C3AF68 /* VerbDetailViewController.swift */; };
+		D2270E6F1D723CA800360D45 /* Verb+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2270E6D1D723CA800360D45 /* Verb+CoreDataProperties.swift */; };
+		D2270E701D723CA800360D45 /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2270E6E1D723CA800360D45 /* Verb.swift */; };
+		D22D032D1D6C0E0300DCD108 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D032C1D6C0E0300DCD108 /* AppDelegate.swift */; };
+		D22D032F1D6C0E0300DCD108 /* NounViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D032E1D6C0E0300DCD108 /* NounViewController.swift */; };
+		D22D03321D6C0E0300DCD108 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22D03301D6C0E0300DCD108 /* Main.storyboard */; };
+		D22D03351D6C0E0300DCD108 /* Gaeilge2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D22D03331D6C0E0300DCD108 /* Gaeilge2.xcdatamodeld */; };
+		D22D03371D6C0E0300DCD108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D22D03361D6C0E0300DCD108 /* Assets.xcassets */; };
+		D22D033A1D6C0E0300DCD108 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D22D03381D6C0E0300DCD108 /* LaunchScreen.storyboard */; };
+		D22D03421D6C206B00DCD108 /* NounDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D03411D6C206B00DCD108 /* NounDetailViewController.swift */; };
+		D27E05F81D7647E900E5B3DD /* AdjectiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E05F71D7647E900E5B3DD /* AdjectiveViewController.swift */; };
+		D27E05FA1D76480400E5B3DD /* AdjectiveDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E05F91D76480400E5B3DD /* AdjectiveDetailViewController.swift */; };
+		D27E05FC1D76482300E5B3DD /* AdverbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E05FB1D76482300E5B3DD /* AdverbViewController.swift */; };
+		D27E05FE1D76483900E5B3DD /* AdverbDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E05FD1D76483900E5B3DD /* AdverbDetailViewController.swift */; };
+		D27E06001D76485E00E5B3DD /* PrepositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E05FF1D76485E00E5B3DD /* PrepositionViewController.swift */; };
+		D27E06021D76487400E5B3DD /* PrepositionDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E06011D76487400E5B3DD /* PrepositionDetailViewController.swift */; };
+		D27E06091D764AF600E5B3DD /* Adverb+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E06031D764AF600E5B3DD /* Adverb+CoreDataProperties.swift */; };
+		D27E060A1D764AF600E5B3DD /* Adverb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E06041D764AF600E5B3DD /* Adverb.swift */; };
+		D27E060B1D764AF600E5B3DD /* Adjective+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E06051D764AF600E5B3DD /* Adjective+CoreDataProperties.swift */; };
+		D27E060C1D764AF600E5B3DD /* Adjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E06061D764AF600E5B3DD /* Adjective.swift */; };
+		D27E060D1D764AF600E5B3DD /* Preposition+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E06071D764AF600E5B3DD /* Preposition+CoreDataProperties.swift */; };
+		D27E060E1D764AF600E5B3DD /* Preposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27E06081D764AF600E5B3DD /* Preposition.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D208FC481D6D298300274CAD /* Noun+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Noun+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D208FC491D6D298300274CAD /* Noun.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Noun.swift; sourceTree = "<group>"; };
+		D2129DB31D6FF81400533B3B /* VerbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerbViewController.swift; path = Gaeilge2/VerbViewController.swift; sourceTree = "<group>"; };
+		D21EF9D31D73955600C3AF68 /* TenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TenseViewController.swift; sourceTree = "<group>"; };
+		D21EF9D81D755FEE00C3AF68 /* VerbDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerbDetailViewController.swift; path = Gaeilge2/VerbDetailViewController.swift; sourceTree = "<group>"; };
+		D2270E6D1D723CA800360D45 /* Verb+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Verb+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D2270E6E1D723CA800360D45 /* Verb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verb.swift; sourceTree = "<group>"; };
+		D22D03291D6C0E0300DCD108 /* Gaeilge2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gaeilge2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D22D032C1D6C0E0300DCD108 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D22D032E1D6C0E0300DCD108 /* NounViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NounViewController.swift; path = Gaeilge2/NounViewController.swift; sourceTree = "<group>"; };
+		D22D03311D6C0E0300DCD108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D22D03341D6C0E0300DCD108 /* Gaeilge2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Gaeilge2.xcdatamodel; sourceTree = "<group>"; };
+		D22D03361D6C0E0300DCD108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D22D03391D6C0E0300DCD108 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D22D033B1D6C0E0300DCD108 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22D03411D6C206B00DCD108 /* NounDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NounDetailViewController.swift; path = Gaeilge2/NounDetailViewController.swift; sourceTree = "<group>"; };
+		D27E05F71D7647E900E5B3DD /* AdjectiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjectiveViewController.swift; sourceTree = "<group>"; };
+		D27E05F91D76480400E5B3DD /* AdjectiveDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjectiveDetailViewController.swift; sourceTree = "<group>"; };
+		D27E05FB1D76482300E5B3DD /* AdverbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdverbViewController.swift; sourceTree = "<group>"; };
+		D27E05FD1D76483900E5B3DD /* AdverbDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdverbDetailViewController.swift; sourceTree = "<group>"; };
+		D27E05FF1D76485E00E5B3DD /* PrepositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepositionViewController.swift; sourceTree = "<group>"; };
+		D27E06011D76487400E5B3DD /* PrepositionDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepositionDetailViewController.swift; sourceTree = "<group>"; };
+		D27E06031D764AF600E5B3DD /* Adverb+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Adverb+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D27E06041D764AF600E5B3DD /* Adverb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adverb.swift; sourceTree = "<group>"; };
+		D27E06051D764AF600E5B3DD /* Adjective+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Adjective+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D27E06061D764AF600E5B3DD /* Adjective.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Adjective.swift; sourceTree = "<group>"; };
+		D27E06071D764AF600E5B3DD /* Preposition+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Preposition+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D27E06081D764AF600E5B3DD /* Preposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preposition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D22D03261D6C0E0300DCD108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21EF9D61D755DC500C3AF68 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D21EF9D81D755FEE00C3AF68 /* VerbDetailViewController.swift */,
+				D2129DB31D6FF81400533B3B /* VerbViewController.swift */,
+				D22D032E1D6C0E0300DCD108 /* NounViewController.swift */,
+				D22D03411D6C206B00DCD108 /* NounDetailViewController.swift */,
+				D21EF9D31D73955600C3AF68 /* TenseViewController.swift */,
+				D27E05F71D7647E900E5B3DD /* AdjectiveViewController.swift */,
+				D27E05F91D76480400E5B3DD /* AdjectiveDetailViewController.swift */,
+				D27E05FB1D76482300E5B3DD /* AdverbViewController.swift */,
+				D27E05FD1D76483900E5B3DD /* AdverbDetailViewController.swift */,
+				D27E05FF1D76485E00E5B3DD /* PrepositionViewController.swift */,
+				D27E06011D76487400E5B3DD /* PrepositionDetailViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		D21EF9D71D755DF300C3AF68 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D2270E6D1D723CA800360D45 /* Verb+CoreDataProperties.swift */,
+				D2270E6E1D723CA800360D45 /* Verb.swift */,
+				D208FC481D6D298300274CAD /* Noun+CoreDataProperties.swift */,
+				D208FC491D6D298300274CAD /* Noun.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D22D03201D6C0E0300DCD108 = {
+			isa = PBXGroup;
+			children = (
+				D27E06031D764AF600E5B3DD /* Adverb+CoreDataProperties.swift */,
+				D27E06041D764AF600E5B3DD /* Adverb.swift */,
+				D27E06051D764AF600E5B3DD /* Adjective+CoreDataProperties.swift */,
+				D27E06061D764AF600E5B3DD /* Adjective.swift */,
+				D27E06071D764AF600E5B3DD /* Preposition+CoreDataProperties.swift */,
+				D27E06081D764AF600E5B3DD /* Preposition.swift */,
+				D21EF9D71D755DF300C3AF68 /* Classes */,
+				D21EF9D61D755DC500C3AF68 /* View Controllers */,
+				D22D032B1D6C0E0300DCD108 /* Gaeilge2 */,
+				D22D032A1D6C0E0300DCD108 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D22D032A1D6C0E0300DCD108 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D22D03291D6C0E0300DCD108 /* Gaeilge2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D22D032B1D6C0E0300DCD108 /* Gaeilge2 */ = {
+			isa = PBXGroup;
+			children = (
+				D22D032C1D6C0E0300DCD108 /* AppDelegate.swift */,
+				D22D03301D6C0E0300DCD108 /* Main.storyboard */,
+				D22D03361D6C0E0300DCD108 /* Assets.xcassets */,
+				D22D03381D6C0E0300DCD108 /* LaunchScreen.storyboard */,
+				D22D033B1D6C0E0300DCD108 /* Info.plist */,
+				D22D03331D6C0E0300DCD108 /* Gaeilge2.xcdatamodeld */,
+			);
+			path = Gaeilge2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D22D03281D6C0E0300DCD108 /* Gaeilge2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D22D033E1D6C0E0300DCD108 /* Build configuration list for PBXNativeTarget "Gaeilge2" */;
+			buildPhases = (
+				D22D03251D6C0E0300DCD108 /* Sources */,
+				D22D03261D6C0E0300DCD108 /* Frameworks */,
+				D22D03271D6C0E0300DCD108 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gaeilge2;
+			productName = Gaeilge2;
+			productReference = D22D03291D6C0E0300DCD108 /* Gaeilge2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D22D03211D6C0E0300DCD108 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Scott;
+				TargetAttributes = {
+					D22D03281D6C0E0300DCD108 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+					};
+				};
+			};
+			buildConfigurationList = D22D03241D6C0E0300DCD108 /* Build configuration list for PBXProject "Gaeilge2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D22D03201D6C0E0300DCD108;
+			productRefGroup = D22D032A1D6C0E0300DCD108 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D22D03281D6C0E0300DCD108 /* Gaeilge2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D22D03271D6C0E0300DCD108 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D22D033A1D6C0E0300DCD108 /* LaunchScreen.storyboard in Resources */,
+				D22D03371D6C0E0300DCD108 /* Assets.xcassets in Resources */,
+				D22D03321D6C0E0300DCD108 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D22D03251D6C0E0300DCD108 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21EF9D91D755FEE00C3AF68 /* VerbDetailViewController.swift in Sources */,
+				D208FC4A1D6D298300274CAD /* Noun+CoreDataProperties.swift in Sources */,
+				D27E05FA1D76480400E5B3DD /* AdjectiveDetailViewController.swift in Sources */,
+				D27E060B1D764AF600E5B3DD /* Adjective+CoreDataProperties.swift in Sources */,
+				D22D032F1D6C0E0300DCD108 /* NounViewController.swift in Sources */,
+				D2270E6F1D723CA800360D45 /* Verb+CoreDataProperties.swift in Sources */,
+				D27E06001D76485E00E5B3DD /* PrepositionViewController.swift in Sources */,
+				D2270E701D723CA800360D45 /* Verb.swift in Sources */,
+				D27E05FE1D76483900E5B3DD /* AdverbDetailViewController.swift in Sources */,
+				D27E060C1D764AF600E5B3DD /* Adjective.swift in Sources */,
+				D27E06021D76487400E5B3DD /* PrepositionDetailViewController.swift in Sources */,
+				D22D03351D6C0E0300DCD108 /* Gaeilge2.xcdatamodeld in Sources */,
+				D21EF9D41D73955600C3AF68 /* TenseViewController.swift in Sources */,
+				D27E05FC1D76482300E5B3DD /* AdverbViewController.swift in Sources */,
+				D22D03421D6C206B00DCD108 /* NounDetailViewController.swift in Sources */,
+				D27E060A1D764AF600E5B3DD /* Adverb.swift in Sources */,
+				D22D032D1D6C0E0300DCD108 /* AppDelegate.swift in Sources */,
+				D208FC4B1D6D298300274CAD /* Noun.swift in Sources */,
+				D27E060E1D764AF600E5B3DD /* Preposition.swift in Sources */,
+				D27E060D1D764AF600E5B3DD /* Preposition+CoreDataProperties.swift in Sources */,
+				D27E06091D764AF600E5B3DD /* Adverb+CoreDataProperties.swift in Sources */,
+				D27E05F81D7647E900E5B3DD /* AdjectiveViewController.swift in Sources */,
+				D2129DB41D6FF81400533B3B /* VerbViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D22D03301D6C0E0300DCD108 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22D03311D6C0E0300DCD108 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D22D03381D6C0E0300DCD108 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D22D03391D6C0E0300DCD108 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D22D033C1D6C0E0300DCD108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D22D033D1D6C0E0300DCD108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D22D033F1D6C0E0300DCD108 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gaeilge2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teangacha.com.Gaeilge2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D22D03401D6C0E0300DCD108 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Gaeilge2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = teangacha.com.Gaeilge2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D22D03241D6C0E0300DCD108 /* Build configuration list for PBXProject "Gaeilge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22D033C1D6C0E0300DCD108 /* Debug */,
+				D22D033D1D6C0E0300DCD108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D22D033E1D6C0E0300DCD108 /* Build configuration list for PBXNativeTarget "Gaeilge2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D22D033F1D6C0E0300DCD108 /* Debug */,
+				D22D03401D6C0E0300DCD108 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D22D03331D6C0E0300DCD108 /* Gaeilge2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D22D03341D6C0E0300DCD108 /* Gaeilge2.xcdatamodel */,
+			);
+			currentVersion = D22D03341D6C0E0300DCD108 /* Gaeilge2.xcdatamodel */;
+			path = Gaeilge2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D22D03211D6C0E0300DCD108 /* Project object */;
+}

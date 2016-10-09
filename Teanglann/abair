@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="ga">
+<head>
+	
+		<title>Bunachar Gramadaí: abair</title>
+		<meta name="title" content="Bunachar Gramadaí: abair" />
+		<meta property="og:title" content="Bunachar Gramadaí: abair" />
+		<meta name="description" content="Foirmeacha infhillte agus claochlaithe de 'abair' i nGaeilge" />
+		<meta property="og:description" content="Foirmeacha infhillte agus claochlaithe de 'abair' i nGaeilge" />
+		<meta name="keywords" content="" />
+		<link rel="image_src" href="http://breis.focloir.ie/furniture/illustration-home.png" />
+		<meta property="og:image" content="http://breis.focloir.ie/furniture/illustration-home.png" />
+	
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0" />
+	<meta name="MobileOptimized" content="300" />
+	<meta name="HandheldFriendly" content="true" />
+	<link rel="stylesheet" type="text/css" href="/furniture/template.css?2016-06-15"/>
+	<link rel="stylesheet" type="text/css" href="/furniture/fgb.css?2015-09-29"/>
+	<link rel="stylesheet" type="text/css" href="/furniture/eid.css?2015-09-29"/>
+	<link rel="stylesheet" type="text/css" href="/furniture/gram.css?2016-02-02"/>
+	<link rel="stylesheet" type="text/css" href="/furniture/fuaim.css?2015-09-29"/>
+	<link rel="stylesheet" type="text/css" href="/furniture/fb.css?2015-09-29"/>
+	<script type="text/javascript" src="/furniture/template.js?2015-09-29"></script>
+	<script type="text/javascript">var uilang="ga"; var collection="gram";</script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/poshytip/jquery.poshytip.min.js"></script>
+	<link rel="stylesheet" href="/poshytip/tip-yellow/tip-yellow.css" type="text/css" />
+	<script type="text/javascript" src="/jplayer/jquery.jplayer.min.js"></script>
+	<script type="text/javascript">$(document).ready(start)</script>
+	<link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+	<link rel="alternate" hreflang="en" href="/en/gram/abair" />
+	<script type="text/javascript">
+  	var _gaq = _gaq || [];
+  	_gaq.push(['_setAccount', 'UA-13194751-8']);
+  	_gaq.push(['_trackPageview']);
+  	(function() {
+    	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  	})();
+	</script>
+</head>
+<body>
+
+<div id="topbar">
+	<div class="inside">
+		<div class="uilang">
+			<a class="current" href="/ga/gram/abair"><span class="long">Gaeilge</span><span class="short">GA</span></a>
+			<a  href="/en/gram/abair"><span class="long">English</span><span class="short">EN</span></a>
+		</div>
+		<div class="dropdown">
+			<span class="title">Eolas&nbsp;&nbsp;▼</span>
+			<div class="submenu" id="submenu">
+				<a href="/ga/_eolas">Maidir leis an suíomh seo »</a><a href="/ga/_cabhair">Conas an suíomh seo a úsáid »</a><a href="/ga/_aiseolas">Aiseolas »</a><a href="/ga/_inrochtaineacht">Inrochtaineacht »</a><a href="/ga/_breiseain">Breiseáin agus giuirléidí »</a>
+				<a href="/ga/_nuacht">Nuacht »</a>
+			</div>
+		</div>
+		<a class="homelink" href="/ga/">Baile</a>
+		<a class="uplink" href="http://www.focloir.ie/ga/" target="_blank">
+			<span class="long">Foclóir Nua Béarla&ndash;Gaeilge »</span>
+			<span class="short">FNBG »</span>
+		</a>
+		<div class="clear"></div>
+	</div>
+</div>
+
+<div id="envelope">
+<div id="invelope">
+
+	<div id="logo">
+		<a class="logo" href="/ga/">
+			<span class="tagline">LEABHARLANN TEANGA AGUS FOCLÓIREACHTA</span>
+		</a>
+	</div>
+
+	<script type="text/javascript">
+	function searchSubmit(f) {
+		var text=f.elements["text"].value;
+		if(text.replace(/^\s*/, "").replace(/\s*$/, "").toLowerCase()=="con") text="con ";
+		if(text.replace(/^\s*/, "").replace(/\s*$/, "").toLowerCase()=="bin") text="bin ";
+		var collection="gram";
+		if(text.replace(/^\s*/, "").replace(/\s*$/, "")!="") {
+			text=text.replace(/^\s*/, "");
+			var url="/ga/"+collection+"/"+encodeURIComponent(text.replace(/ /g, "_").replace(/\./g, "_"));
+			window.location=url;
+		}
+		return false;
+	}
+	</script>
+	<form id="sform" onsubmit="return searchSubmit(this)">
+		<div class="inside">
+			<div class="inset textbox">
+				<input class="text" name="text" value="abair" />
+				<input class="submit" type="submit" value="" />
+			</div>
+			<div class="message">
+				Cuardaigh focal Gaeilge nó Béarla.
+			</div>
+		</div>
+	</form>
+	
+	
+		<div class="suggestions">
+			Focail chosúla:
+			
+				<a href="/ga/gram/abaid">abaid</a>
+				 &middot; 
+				<a href="/ga/gram/abail">abail</a>
+				 &middot; 
+				<a href="/ga/gram/abairt">abairt</a>
+				 &middot; 
+				<a href="/ga/gram/abar">abar</a>
+				 &middot; 
+				<a href="/ga/gram/agair">agair</a>
+				
+		</div>
+	
+	
+	<div class="colltabs">
+		<a id="tab_fgb" class="fgb" href="/ga/fgb/abair">
+			<span class="icon"></span>
+			<span class="title">Foclóir Gaeilge&ndash;Béarla</span>
+			<span class="tagline">Ó Dónaill, 1977</span>
+		</a>
+		<a id="tab_eid" class="eid" href="/ga/eid/abair">
+			<span class="icon"></span>
+			<span class="title">English&ndash;Irish Dictionary</span>
+			<span class="tagline">de Bhaldraithe, 1959</span>
+		</a>
+		<a id="tab_fb" class="fb" href="/ga/fb/abair">
+			<span class="icon"></span>
+			<span class="title">An Foclóir Beag</span>
+			<span class="tagline">Ó Dónaill &amp; Ua Maoileoin, 1991</span>
+		</a>
+		<a id="tab_gram" class="gram current" href="/ga/gram/">
+			<span class="icon"></span>
+			<span class="onlytitle">Gramadach</span>
+		</a>
+		<a id="tab_fuaim" class="fuaim" href="/ga/fuaim/abair">
+			<span class="icon"></span>
+			<span class="onlytitle">Foghraíocht</span>
+		</a>
+		<div class="clear"></div>
+	</div>
+	
+	
+			<div class="grambar">
+				<div class="title"><span>AN DRAOI GRAMADAÍ</span></div>
+				<div class="inside gram" style="display: none;">
+					<table>
+					
+						<tr class="header">
+							<td><span class="num">1</span> ROGHNAIGH AINMFHOCAL</td>
+							<td></td>
+							<td><span class="num">2</span> ROGHNAIGH AIDIACHT</td>
+						</tr>
+						<tr>
+							<td class="box">
+								<a href="javascript:void(null)" class="lemmapicker" onclick="picklemma(this)" data-pos="noun" data-uilang="ga" data-gourl="_n_a?n=[x]&a=">
+									<span class="arrow">▼</span>
+									
+										<span class="select">&nbsp;</span>
+									
+								</a>
+							</td>
+							<td class="connector">+</td>
+							<td class="box">
+								<a href="javascript:void(null)" class="lemmapicker" onclick="picklemma(this)" data-pos="adjective" data-uilang="ga" data-gourl="_n_a?n=&a=[x]">
+									<span class="arrow">▼</span>
+									
+										<span class="select">&nbsp;</span>
+									
+								
+								</a>
+							</td>
+						</tr>
+					
+					</table>
+				</div>
+				<div class="unhider">
+					<a href="javascript:doNothing()" onclick="unhideGrambar(this)"></a>
+				</div>
+			</div>
+		
+
+		<div class="abc">
+			
+				<a href="/ga/gram/ab"><span>ab</span></a>
+			
+				<a href="/ga/gram/abacas"><span>abacas</span></a>
+			
+				<a href="/ga/gram/abach"><span>abach</span></a>
+			
+				<a href="/ga/gram/abacht"><span>abacht</span></a>
+			
+				<a class="current" href="/ga/gram/abair"><span>abair</span></a>
+			
+				<a href="/ga/gram/abairt"><span>abairt</span></a>
+			
+				<a href="/ga/gram/%c3%a1balta"><span>ábalta</span></a>
+			
+				<a href="/ga/gram/%c3%a1baltacht"><span>ábaltacht</span></a>
+			
+				<a href="/ga/gram/abar"><span>abar</span></a>
+			
+				<a href="/ga/gram/abarach"><span>abarach</span></a>
+			
+				<a href="/ga/gram/abarlach"><span>abarlach</span></a>
+			
+				<a href="/ga/gram/abartha"><span>abartha</span></a>
+			
+				<a href="/ga/gram/abarthacht"><span>abarthacht</span></a>
+			
+				<a href="/ga/gram/abd%c3%b3man"><span>abdóman</span></a>
+			
+				<a href="/ga/gram/abduchtach"><span>abduchtach</span></a>
+			
+				<a href="/ga/gram/abhac"><span>abhac</span></a>
+			
+				<a href="/ga/gram/abhac%c3%a1d"><span>abhacád</span></a>
+			
+				<a href="/ga/gram/%c3%a1bhach"><span>ábhach</span></a>
+			
+				<a href="/ga/gram/%c3%a1bhacht"><span>ábhacht</span></a>
+			
+				<a href="/ga/gram/%c3%a1bhachtach"><span>ábhachtach</span></a>
+			
+		</div>
+	
+	
+	<div class="listings">
+	
+		
+			<div class="know">
+				Seans gur foirm é <em>abair</em> de:
+					<a href="/ga/_search/abar">abar&nbsp;»</a>
+					
+			</div>
+		
+		
+		<div id="dirSwapper" style="display: none;">
+			<a id="dirSwapperObverse" href="javascript:dirSwap('obverse')">
+				<span class="long">
+					Gaeilge ► Béarla
+				</span>
+				<span class="short">
+					GA ► EN
+				</span>
+			</a>
+			&nbsp;
+			<a id="dirSwapperReverse" href="javascript:dirSwap('reverse')">
+				<span class="long">
+					Béarla ► Gaeilge
+					<em>(cuardach droim ar ais)</em>
+				</span>
+				<span class="short">
+					EN ► GA
+				</span>
+			</a>
+		</div>
+
+		
+			<div class="dir obverse exacts">
+				<div class="gram">
+<div class="header">
+    <h1>abair</h1>
+    <div class="property">
+      <div class="bullet">▪</div>
+      <div class="value">BRIATHAR</div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="subsection">
+      <h3>AINM BRIATHARTHA</h3>
+      <div class="block">
+        <div class="line"><span class="value primary">rá</span></div>
+      </div>
+    </div>
+    <div class="subsection">
+      <h3>AIDIACHT BHRIATHARTHA</h3>
+      <div class="block">
+        <div class="line"><span class="value primary">ráite</span></div>
+      </div>
+    </div>
+    <div class="selector"><select id="selector" onchange="pick(this.value)"><option value="past">Aimsir chaite</option>
+        <option value="present">Aimsir láithreach</option>
+        <option value="future">Aimsir fháistineach</option>
+        <option value="condi">Modh coinníollach</option>
+        <option value="pastConti">Aimsir ghnáthchaite</option>
+        <option value="imper">Modh ordaitheach</option>
+        <option value="subj">Modh foshuiteach</option></select></div><script>
+				
+					function pick(val) {
+						if(document.getElementById("past")) document.getElementById("past").style.display="none";
+						if(document.getElementById("present")) document.getElementById("present").style.display="none";
+						if(document.getElementById("presentConti")) document.getElementById("presentConti").style.display="none";
+						if(document.getElementById("future")) document.getElementById("future").style.display="none";
+						if(document.getElementById("condi")) document.getElementById("condi").style.display="none";
+						if(document.getElementById("pastConti")) document.getElementById("pastConti").style.display="none";
+						if(document.getElementById("imper")) document.getElementById("imper").style.display="none";
+						if(document.getElementById("subj")) document.getElementById("subj").style.display="none";
+						if(document.getElementById(val)) document.getElementById(val).style.display="";
+					}
+				
+			</script><div class="section">
+      <div class="body" id="past">
+        <div class="subsection">
+          <h3>UATHA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">dúirt mé</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúirt mé?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúirt mé</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">dúirt tú</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúirt tú?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúirt tú</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">dúirt sé</span> <span class="label">(FIR.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúirt sé?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúirt sé</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">dúirt sí</span> <span class="label">(BAIN.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúirt sí?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúirt sí</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>IOLRA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">dúramar</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúramar?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúramar</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">dúirt muid</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúirt muid?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúirt muid</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">dúirt sibh</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúirt sibh?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúirt sibh</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">dúirt siad</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúirt siad?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúirt siad</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">dúradar</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúradar?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúradar</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>SAORBHRIATHAR</h3>
+          <div class="block introd">
+            <div class="line"><span class="value primary">dúradh</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndúradh?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní dúradh</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="body" id="present">
+        <div class="subsection">
+          <h3>UATHA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">deirim</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeirim?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deirim</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">deir tú</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeir tú?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deir tú</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">deir sé</span> <span class="label">(FIR.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeir sé?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deir sé</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">deir sí</span> <span class="label">(BAIN.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeir sí?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deir sí</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>IOLRA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">deirimid</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeirimid?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deirimid</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">deir muid</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeir muid?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deir muid</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">deir sibh</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeir sibh?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deir sibh</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">deir siad</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeir siad?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deir siad</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>SAORBHRIATHAR</h3>
+          <div class="block introd">
+            <div class="line"><span class="value primary">deirtear</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeirtear?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deirtear</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="body" id="future">
+        <div class="subsection">
+          <h3>UATHA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">déarfaidh mé</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaidh mé?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaidh mé</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">déarfaidh tú</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaidh tú?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaidh tú</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">déarfaidh sé</span> <span class="label">(FIR.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaidh sé?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaidh sé</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">déarfaidh sí</span> <span class="label">(BAIN.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaidh sí?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaidh sí</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>IOLRA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">déarfaimid</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaimid?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaimid</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">déarfaidh muid</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaidh muid?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaidh muid</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">déarfaidh sibh</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaidh sibh?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaidh sibh</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">déarfaidh siad</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaidh siad?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaidh siad</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>SAORBHRIATHAR</h3>
+          <div class="block introd">
+            <div class="line"><span class="value primary">déarfar</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfar?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfar</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="body" id="condi">
+        <div class="subsection">
+          <h3>UATHA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">déarfainn</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfainn?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfainn</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">déarfá</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfá?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfá</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">déarfadh sé</span> <span class="label">(FIR.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfadh sé?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfadh sé</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">déarfadh sí</span> <span class="label">(BAIN.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfadh sí?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfadh sí</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>IOLRA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">déarfaimis</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaimis?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaimis</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">déarfadh muid</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfadh muid?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfadh muid</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">déarfadh sibh</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfadh sibh?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfadh sibh</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">déarfaidís</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaidís?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaidís</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">déarfadh siad</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfadh siad?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfadh siad</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>SAORBHRIATHAR</h3>
+          <div class="block introd">
+            <div class="line"><span class="value primary">déarfaí</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndéarfaí?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní déarfaí</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="body" id="pastConti">
+        <div class="subsection">
+          <h3>UATHA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">deirinn</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeirinn?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deirinn</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">deirteá</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeirteá?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deirteá</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">deireadh sé</span> <span class="label">(FIR.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeireadh sé?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deireadh sé</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">deireadh sí</span> <span class="label">(BAIN.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeireadh sí?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deireadh sí</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>IOLRA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">deirimis</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeirimis?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deirimis</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">deireadh muid</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeireadh muid?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deireadh muid</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">deireadh sibh</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeireadh sibh?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deireadh sibh</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">deiridís</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeiridís?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deiridís</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">deireadh siad</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeireadh siad?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deireadh siad</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>SAORBHRIATHAR</h3>
+          <div class="block introd">
+            <div class="line"><span class="value primary">deirtí</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">an ndeirtí?</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ní deirtí</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="body" id="imper">
+        <div class="subsection">
+          <h3>UATHA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">abraim!</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habraim!</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">abair!</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habair!</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">abradh sé!</span> <span class="label">(FIR.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habradh sé!</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">abradh sí!</span> <span class="label">(BAIN.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habradh sí!</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>IOLRA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">abraimis!</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habraimis!</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">abradh muid!</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habradh muid!</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">abraigí!</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habraigí!</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">abraidís!</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habraidís!</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">abradh siad!</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habradh siad!</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>SAORBHRIATHAR</h3>
+          <div class="block introd">
+            <div class="line"><span class="value primary">abairtear!</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">ná habairtear!</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="body" id="subj">
+        <div class="subsection">
+          <h3>UATHA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">go ndeire mé</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">nár deire mé</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">go ndeire tú</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">nár deire tú</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">go ndeire sé</span> <span class="label">(FIR.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">nár deire sé</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">go ndeire sí</span> <span class="label">(BAIN.)</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">nár deire sí</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>IOLRA</h3>
+          <div class="block introd">
+            <div class="intro">1</div>
+            <div class="line"><span class="value primary">go ndeirimid</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">nár deirimid</span></div>
+          </div>
+          <div class="block introd">
+            <div class="line"><span class="value primary">go ndeire muid</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">nár deire muid</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">2</div>
+            <div class="line"><span class="value primary">go ndeire sibh</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">nár deire sibh</span></div>
+          </div>
+          <div class="block introd">
+            <div class="intro">3</div>
+            <div class="line"><span class="value primary">go ndeire siad</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">nár deire siad</span></div>
+          </div>
+        </div>
+        <div class="subsection">
+          <h3>SAORBHRIATHAR</h3>
+          <div class="block introd">
+            <div class="line"><span class="value primary">go ndeirtear</span></div>
+            <div class="line bulletted"><span class="bullet">▪</span><span class="value">nár deirtear</span></div>
+          </div>
+        </div>
+      </div>
+    </div><script>
+				
+					pick('past'); document.getElementById('selector').selectedIndex=0;
+				
+			</script></div>
+</div>
+					
+			</div>
+		
+			<div class="dir obverse">
+				<div class="resultset">
+					TORTHAÍ GAOLMHARA
+					
+				</div>
+				
+						<div class="partial"><a href="/ga/gram/deir">deir <span class="arrow">»</span></a></div>
+					
+						<div class="partial"><a href="/ga/gram/deireadh">deireadh <span class="arrow">»</span></a></div>
+					
+						<div class="partial"><a href="/ga/gram/r%c3%a1">rá <span class="arrow">»</span></a></div>
+					
+						<div class="partial"><a href="/ga/gram/s%c3%ador-r%c3%a1">síor-rá <span class="arrow">»</span></a></div>
+					
+				<div class="clear-left"></div>
+			</div>
+		
+		
+		<div class="clear"></div>
+	</div> <!--end listings-->
+	
+</div> <!--end invelope-->
+</div> <!--end envelope-->
+
+<div class="forefooter">
+	<div class="inside">
+		
+				<a href="/ga/_eolas">Maidir leis an suíomh seo</a>
+				|
+				<a href="/ga/_cabhair">Conas an suíomh seo a úsáid</a>
+				|
+				<a href="/ga/_aiseolas">Aiseolas</a>
+				|
+				<a href="/ga/_inrochtaineacht">Inrochtaineacht</a>
+				|
+				<a href="/ga/_breiseain">Breiseáin agus giuirléidí</a>
+				
+		| <a href="/ga/_nuacht">Nuacht</a>
+	</div>
+</div>
+<div class="footer">
+	<div class="inside">
+		<a class="fnag" href="http://www.gaeilge.ie/" target="_blank"></a>
+		&copy; <a href="http://www.gaeilge.ie/" target="_blank">Foras na Gaeilge</a> 2013.
+		Suíomh cóirithe ag <a href="http://www.lexiconista.com/" target="_blank">MBM</a>.
+	</div>
+</div>
+
+</body>
+</html>

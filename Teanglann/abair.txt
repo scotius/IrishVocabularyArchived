@@ -1,0 +1,206 @@
+abair
+
+Ainm Briarthartha
+rá
+Aidiacht Briarthartha
+ráite
+
+Aimsir Chaite
+
+dúirt mé
+an ndúirt mé?
+ní dúirt mé
+dúirt tú
+an ndúirt tú?
+ní dúirt tú
+dúirt sé 
+an ndúirt sé?
+ní dúirt sé
+dúirt sí (BAIN.)
+an ndúirt sí?
+ní dúirt sí
+dúramar
+an ndúramar?
+ní dúramar
+dúirt muid
+an ndúirt muid?
+ní dúirt muid
+dúirt sibh
+an ndúirt sibh?
+ní dúirt sibh
+dúirt siad
+an ndúirt siad?
+ní dúirt siad
+Saorbhriathar
+dúradh
+an ndúradh?
+ní dúradh
+
+Aimsir Láithreach
+
+deirim
+an ndeirim?
+ní deirim
+deir tú
+an ndeir tú?
+ní deir tú
+deir sé 
+an ndeir sé?
+ní deir sé
+deir sí (BAIN.)
+an ndeir sí?
+ní deir sí
+deirimid
+an ndeirimid?
+ní deirimid
+deir muid
+an ndeir muid?
+ní deir muid
+deir sibh
+an ndeir sibh?
+ní deir sibh
+deir siad
+an ndeir siad?
+ní deir siad
+Saorbhriathar
+deirtear
+an ndeirtear?
+ní deirtear
+
+Aimsir Fháistineach
+déarfaidh mé
+an ndéarfaidh mé?
+ní déarfaidh mé
+déarfaidh tú
+an ndéarfaidh tú?
+ní déarfaidh tú
+déarfaidh sé 
+an ndéarfaidh sé?
+ní déarfaidh sé
+déarfaidh sí (BAIN.)
+an ndéarfaidh sí?
+ní déarfaidh sí
+déarfaimid
+an ndéarfaimid?
+ní déarfaimid
+déarfaidh muid
+an ndéarfaidh muid?
+ní déarfaidh muid
+déarfaidh sibh
+an ndéarfaidh sibh?
+ní déarfaidh sibh
+déarfaidh siad
+an ndéarfaidh siad?
+ní déarfaidh siad
+Saorbhriathar
+déarfar
+an ndéarfar?
+ní déarfar
+
+Modh Coinníollach
+
+déarfainn
+an ndéarfainn?
+ní déarfainn
+déarfá
+an ndéarfá?
+ní déarfá
+déarfadh sé 
+an ndéarfadh sé?
+ní déarfadh sé
+déarfadh sí (BAIN.)
+an ndéarfadh sí?
+ní déarfadh sí
+déarfaimis
+an ndéarfaimis?
+ní déarfaimis
+déarfadh muid
+an ndéarfadh muid?
+ní déarfadh muid
+déarfadh sibh
+an ndéarfadh sibh?
+ní déarfadh sibh
+déarfaidís
+an ndéarfaidís?
+ní déarfaidís
+déarfadh siad
+an ndéarfadh siad?
+ní déarfadh siad
+Saorbhriathar
+déarfaí
+an ndéarfaí?
+ní déarfaí
+
+Aimsir Ghnáthchaite
+
+deirinn
+an ndeirinn?
+ní deirinn
+deirteá
+an ndeirteá?
+ní deirteá
+deireadh sé 
+an ndeireadh sé?
+ní deireadh sé
+deireadh sí (BAIN.)
+an ndeireadh sí?
+ní deireadh sí
+deirimis
+an ndeirimis?
+ní deirimis
+deireadh sibh
+an ndeireadh sibh?
+ní deireadh sibh
+deiridís
+an ndeiridís?
+ní deiridís
+deireadh siad
+an ndeireadh siad?
+ní deireadh siad
+Saorbhriathar
+deirtí
+an ndeirtí?
+ní deirtí
+
+Modh Ordaitheach
+
+abraim!
+ná habraim!
+abair!
+ná habair!
+abradh sé! 
+ná habradh sé!
+abradh sí! (BAIN.)
+ná habradh sí!
+abraimis!
+ná habraimis!
+abraigí!
+ná habraigí!
+abraidís!
+ná habraidís!
+Saorbhriathar
+abairtear!
+ná habairtear!
+
+Modh Foshuiteach
+
+go ndeire mé
+nár deire mé
+go ndeire tú
+nár deire tú
+go ndeire sé 
+nár deire sé
+go ndeire sí (BAIN.)
+nár deire sí
+go ndeirimid
+nár deirimid
+go ndeire muid
+nár deire muid
+go ndeire sibh
+nár deire sibh
+go ndeire siad
+nár deire siad
+Saorbhriathar
+go ndeirtear
+nár deirtear
+

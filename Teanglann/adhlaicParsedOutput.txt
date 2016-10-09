@@ -1,0 +1,189 @@
+adhlaic
+VERBAL NOUN
+adhlacadh
+VERBAL ADJECTIVE
+adhlactha
+SINGULAR
+d'adhlaic mé
+ar adhlaic mé?
+níor adhlaic mé
+d'adhlaic tú
+ar adhlaic tú?
+níor adhlaic tú
+d'adhlaic sé</span> <span class="label">(MASC.)
+ar adhlaic sé?
+níor adhlaic sé
+PLURAL
+d'adhlacamar
+ar adhlacamar?
+níor adhlacamar
+d'adhlaic muid
+ar adhlaic muid?
+níor adhlaic muid
+d'adhlaic sibh
+ar adhlaic sibh?
+níor adhlaic sibh
+d'adhlaic siad
+ar adhlaic siad?
+níor adhlaic siad
+d'adhlacadar
+ar adhlacadar?
+níor adhlacadar
+PASSIVE
+adhlacadh
+ar adhlacadh?
+níor adhlacadh
+SINGULAR
+adhlacaim
+an adhlacaim?
+ní adhlacaim
+adhlacann tú
+an adhlacann tú?
+ní adhlacann tú
+adhlacann sé</span> <span class="label">(MASC.)
+an adhlacann sé?
+ní adhlacann sé
+PLURAL
+adhlacaimid
+an adhlacaimid?
+ní adhlacaimid
+adhlacann muid
+an adhlacann muid?
+ní adhlacann muid
+adhlacann sibh
+an adhlacann sibh?
+ní adhlacann sibh
+adhlacann siad
+an adhlacann siad?
+ní adhlacann siad
+PASSIVE
+adhlactar
+an adhlactar?
+ní adhlactar
+SINGULAR
+adhlacfaidh mé
+an adhlacfaidh mé?
+ní adhlacfaidh mé
+adhlacfaidh tú
+an adhlacfaidh tú?
+ní adhlacfaidh tú
+adhlacfaidh sé</span> <span class="label">(MASC.)
+an adhlacfaidh sé?
+ní adhlacfaidh sé
+PLURAL
+adhlacfaimid
+an adhlacfaimid?
+ní adhlacfaimid
+adhlacfaidh muid
+an adhlacfaidh muid?
+ní adhlacfaidh muid
+adhlacfaidh sibh
+an adhlacfaidh sibh?
+ní adhlacfaidh sibh
+adhlacfaidh siad
+an adhlacfaidh siad?
+ní adhlacfaidh siad
+PASSIVE
+adhlacfar
+an adhlacfar?
+ní adhlacfar
+SINGULAR
+d'adhlacfainn
+an adhlacfainn?
+ní adhlacfainn
+d'adhlacfá
+an adhlacfá?
+ní adhlacfá
+d'adhlacfadh sé</span> <span class="label">(MASC.)
+an adhlacfadh sé?
+ní adhlacfadh sé
+PLURAL
+d'adhlacfaimis
+an adhlacfaimis?
+ní adhlacfaimis
+d'adhlacfadh muid
+an adhlacfadh muid?
+ní adhlacfadh muid
+d'adhlacfadh sibh
+an adhlacfadh sibh?
+ní adhlacfadh sibh
+d'adhlacfaidís
+an adhlacfaidís?
+ní adhlacfaidís
+d'adhlacfadh siad
+an adhlacfadh siad?
+ní adhlacfadh siad
+PASSIVE
+d'adhlacfaí
+an adhlacfaí?
+ní adhlacfaí
+SINGULAR
+d'adhlacainn
+an adhlacainn?
+ní adhlacainn
+d'adhlactá
+an adhlactá?
+ní adhlactá
+d'adhlacadh sé</span> <span class="label">(MASC.)
+an adhlacadh sé?
+ní adhlacadh sé
+PLURAL
+d'adhlacaimis
+an adhlacaimis?
+ní adhlacaimis
+d'adhlacadh muid
+an adhlacadh muid?
+ní adhlacadh muid
+d'adhlacadh sibh
+an adhlacadh sibh?
+ní adhlacadh sibh
+d'adhlacaidís
+an adhlacaidís?
+ní adhlacaidís
+d'adhlacadh siad
+an adhlacadh siad?
+ní adhlacadh siad
+PASSIVE
+d'adhlactaí
+an adhlactaí?
+ní adhlactaí
+SINGULAR
+adhlacaim!
+ná hadhlacaim!
+adhlaic!
+ná hadhlaic!
+adhlacadh sé!</span> <span class="label">(MASC.)
+ná hadhlacadh sé!
+PLURAL
+adhlacaimis!
+ná hadhlacaimis!
+adhlacadh muid!
+ná hadhlacadh muid!
+adhlacaigí!
+ná hadhlacaigí!
+adhlacaidís!
+ná hadhlacaidís!
+adhlacadh siad!
+ná hadhlacadh siad!
+PASSIVE
+adhlactar!
+ná hadhlactar!
+SINGULAR
+go n-adhlaca mé
+nár adhlaca mé
+go n-adhlaca tú
+nár adhlaca tú
+go n-adhlaca sé</span> <span class="label">(MASC.)
+nár adhlaca sé
+PLURAL
+go n-adhlacaimid
+nár adhlacaimid
+go n-adhlaca muid
+nár adhlaca muid
+go n-adhlaca sibh
+nár adhlaca sibh
+go n-adhlaca siad
+nár adhlaca siad
+PASSIVE
+go n-adhlactar
+nár adhlactar
