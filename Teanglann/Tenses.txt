@@ -16,7 +16,9 @@ simplePast3.neg
 simplePast4.ind
 simplePast4.interr
 simplePast4.neg
-
+simplePast4_1.ind
+simplePast4_1.interr
+simplePast4_1.neg
 simplePast5.ind
 simplePast5.interr
 simplePast5.neg
@@ -39,7 +41,9 @@ present3.neg
 present4.ind
 present4.interr
 present4.neg
-
+present4_1.ind
+present4_1.interr
+present4_1.neg
 present5.ind
 present5.interr
 present5.neg
@@ -62,7 +66,9 @@ future3.neg
 future4.ind
 future4.interr
 future4.neg
-
+future4_1.ind
+future4_1.interr
+future4_1.neg
 future5.ind
 future5.interr
 future5.neg
@@ -85,7 +91,9 @@ conditional3.neg
 conditional4.ind
 conditional4.interr
 conditional4.neg
-
+conditional4_1.ind
+conditional4_1.interr
+conditional4_1.neg
 conditional5.ind
 conditional5.interr
 conditional5.neg
@@ -108,13 +116,18 @@ habitualPast3.neg
 habitualPast4.ind
 habitualPast4.interr
 habitualPast4.neg
-
+habitualPast4_1.ind
+habitualPast4_1.interr
+habitualPast4_1.neg
 habitualPast5.ind
 habitualPast5.interr
 habitualPast5.neg
 habitualPast6.ind
 habitualPast6.interr
 habitualPast6.neg
+habitualPast6_1.ind
+habitualPast6_1.interr
+habitualPast6_1.neg
 habitualPastImpersonal.ind
 habitualPastImpersonal.interr
 habitualPastImpersonal.neg
@@ -131,8 +144,8 @@ imperative5.ind
 imperative5.interr
 imperative6.ind
 imperative6.interr
-ImperativeImpersonal.ind
-ImperativeImpersonal.interr
+imperativeImpersonal.ind
+imperativeImpersonal.interr
 
 presentSubjunctive1.ind
 presentSubjunctive1.neg
@@ -142,6 +155,8 @@ presentSubjunctive3.ind
 presentSubjunctive3.neg
 presentSubjunctive4.ind
 presentSubjunctive4.neg
+presentSubjunctive4_1.ind
+presentSubjunctive4_1.neg
 presentSubjunctive5.ind
 presentSubjunctive5.neg
 presentSubjunctive6.ind
