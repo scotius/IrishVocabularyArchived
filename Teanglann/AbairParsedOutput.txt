@@ -1,19 +1,15 @@
 abair
-AINM BRIATHARTHA
 rá
-AIDIACHT BHRIATHARTHA
 ráite
-UATHA
 dúirt mé
 an ndúirt mé?
 ní dúirt mé
 dúirt tú
 an ndúirt tú?
 ní dúirt tú
-dúirt sé</span> <span class="label">(FIR.)
+dúirt sé
 an ndúirt sé?
 ní dúirt sé
-IOLRA
 dúramar
 an ndúramar?
 ní dúramar
@@ -29,21 +25,18 @@ ní dúirt siad
 dúradar
 an ndúradar?
 ní dúradar
-SAORBHRIATHAR
 dúradh
 an ndúradh?
 ní dúradh
-UATHA
 deirim
 an ndeirim?
 ní deirim
 deir tú
 an ndeir tú?
 ní deir tú
-deir sé</span> <span class="label">(FIR.)
+deir sé
 an ndeir sé?
 ní deir sé
-IOLRA
 deirimid
 an ndeirimid?
 ní deirimid
@@ -56,21 +49,18 @@ ní deir sibh
 deir siad
 an ndeir siad?
 ní deir siad
-SAORBHRIATHAR
 deirtear
 an ndeirtear?
 ní deirtear
-UATHA
 déarfaidh mé
 an ndéarfaidh mé?
 ní déarfaidh mé
 déarfaidh tú
 an ndéarfaidh tú?
 ní déarfaidh tú
-déarfaidh sé</span> <span class="label">(FIR.)
+déarfaidh sé
 an ndéarfaidh sé?
 ní déarfaidh sé
-IOLRA
 déarfaimid
 an ndéarfaimid?
 ní déarfaimid
@@ -83,21 +73,18 @@ ní déarfaidh sibh
 déarfaidh siad
 an ndéarfaidh siad?
 ní déarfaidh siad
-SAORBHRIATHAR
 déarfar
 an ndéarfar?
 ní déarfar
-UATHA
 déarfainn
 an ndéarfainn?
 ní déarfainn
 déarfá
 an ndéarfá?
 ní déarfá
-déarfadh sé</span> <span class="label">(FIR.)
+déarfadh sé
 an ndéarfadh sé?
 ní déarfadh sé
-IOLRA
 déarfaimis
 an ndéarfaimis?
 ní déarfaimis
@@ -113,21 +100,18 @@ ní déarfaidís
 déarfadh siad
 an ndéarfadh siad?
 ní déarfadh siad
-SAORBHRIATHAR
 déarfaí
 an ndéarfaí?
 ní déarfaí
-UATHA
 deirinn
 an ndeirinn?
 ní deirinn
 deirteá
 an ndeirteá?
 ní deirteá
-deireadh sé</span> <span class="label">(FIR.)
+deireadh sé
 an ndeireadh sé?
 ní deireadh sé
-IOLRA
 deirimis
 an ndeirimis?
 ní deirimis
@@ -143,18 +127,15 @@ ní deiridís
 deireadh siad
 an ndeireadh siad?
 ní deireadh siad
-SAORBHRIATHAR
 deirtí
 an ndeirtí?
 ní deirtí
-UATHA
 abraim!
 ná habraim!
 abair!
 ná habair!
-abradh sé!</span> <span class="label">(FIR.)
+abradh sé!
 ná habradh sé!
-IOLRA
 abraimis!
 ná habraimis!
 abradh muid!
@@ -168,14 +149,12 @@ ná habradh siad!
 SAORBHRIATHAR
 abairtear!
 ná habairtear!
-UATHA
 go ndeire mé
 nár deire mé
 go ndeire tú
 nár deire tú
-go ndeire sé</span> <span class="label">(FIR.)
+go ndeire sé
 nár deire sé
-IOLRA
 go ndeirimid
 nár deirimid
 go ndeire muid
@@ -184,6 +163,5 @@ go ndeire sibh
 nár deire sibh
 go ndeire siad
 nár deire siad
-SAORBHRIATHAR
 go ndeirtear
 nár deirtear

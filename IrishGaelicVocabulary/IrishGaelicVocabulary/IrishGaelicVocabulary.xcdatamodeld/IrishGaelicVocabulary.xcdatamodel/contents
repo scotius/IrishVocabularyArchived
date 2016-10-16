@@ -25,6 +25,9 @@
         <attribute name="conditional5.ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="conditional5.interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="conditional5.neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional6_1.ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional6_1.interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional6_1.neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="conditional6.ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="conditional6.interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="conditional6.neg" optional="YES" attributeType="String" syncable="YES"/>
@@ -89,19 +92,23 @@
     </entity>
     <entity name="VerbImperative" syncable="YES">
         <attribute name="imperative1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative1.interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative1.neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="imperative2.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative2.interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative2.neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="imperative3.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative3.interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative3.neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative4_1.ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative4_1.neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="imperative4.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative4.interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative4.neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="imperative5.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative5.interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative5.neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative6_1.ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative6_1.neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="imperative6.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative6.interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative6.neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="imperativeImpersonal.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperativeImpersonal.interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperativeImpersonal.neg" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="VerbPresent" syncable="YES">
         <attribute name="present1.ind" optional="YES" attributeType="String" syncable="YES"/>
@@ -166,6 +173,9 @@
         <attribute name="simplePast5.ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="simplePast5.interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="simplePast5.neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast6_1.ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast6_1.interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast6_1.neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="simplePast6.ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="simplePast6.interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="simplePast6.neg" optional="YES" attributeType="String" syncable="YES"/>
@@ -175,12 +185,12 @@
     </entity>
     <elements>
         <element name="Verb" positionX="-416" positionY="-3141" width="128" height="105"/>
-        <element name="VerbConditional" positionX="0" positionY="-1323" width="128" height="405"/>
+        <element name="VerbConditional" positionX="0" positionY="-1323" width="128" height="450"/>
         <element name="VerbFuture" positionX="0" positionY="-1395" width="128" height="405"/>
         <element name="VerbHabitualPast" positionX="-9" positionY="-1260" width="128" height="450"/>
-        <element name="VerbImperative" positionX="0" positionY="-1150" width="128" height="255"/>
+        <element name="VerbImperative" positionX="0" positionY="-1150" width="128" height="315"/>
         <element name="VerbPresent" positionX="-2" positionY="-1512" width="128" height="405"/>
         <element name="VerbPresentSubjunctive" positionX="-2" positionY="-1087" width="128" height="285"/>
-        <element name="VerbSimplePast" positionX="0" positionY="-1206" width="128" height="405"/>
+        <element name="VerbSimplePast" positionX="0" positionY="-1206" width="128" height="450"/>
     </elements>
 </model>
