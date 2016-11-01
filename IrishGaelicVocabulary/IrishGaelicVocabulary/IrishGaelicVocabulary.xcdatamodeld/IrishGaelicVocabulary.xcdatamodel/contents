@@ -1,196 +1,203 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Verb" syncable="YES">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1108" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Verb" representedClassName=".Verb" syncable="YES">
         <attribute name="english" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="verbalAdjective" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="verbalNoun" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="VerbConditional" syncable="YES">
-        <attribute name="conditional1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional2.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional2.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional2.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional3.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional3.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional3.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional4_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional4_1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional4_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional4.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional4.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional4.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional5.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional5.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional5.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional6_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional6_1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional6_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional6.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional6.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditional6.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditionalImpersonal.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditionalImpersonal.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="conditionalImpersonal.neg" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="VerbConditional" representedClassName=".VerbConditional" syncable="YES">
+        <attribute name="conditional1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional2_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional2_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional2_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional3_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional3_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional3_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional4_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional4_1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional4_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional4_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional4_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional4_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional5_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional5_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional5_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional6_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional6_1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional6_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional6_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional6_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditional6_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditionalImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditionalImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="conditionalImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="VerbFuture" syncable="YES">
-        <attribute name="future1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future2.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future2.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future2.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future3.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future3.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future3.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future4_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future4_1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future4_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future4.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future4.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future4.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future5.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future5.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future5.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future6.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future6.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="future6.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="futureImpersonal.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="futureImpersonal.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="futureImpersonal.neg" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="VerbFuture" representedClassName=".VerbFuture" syncable="YES">
+        <attribute name="future_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future2_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future2_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future3_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future3_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future3_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future4_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future4_1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future4_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future4_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future4_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future4_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future5_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future5_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future5_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future6_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future6_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future6_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="futureImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="futureImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="futureImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="VerbHabitualPast" syncable="YES">
-        <attribute name="habitualPast1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast2.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast2.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast2.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast3.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast3.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast3.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast4_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast4_1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast4_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast4.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast4.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast4.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast5.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast5.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast5.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast6_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast6_1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast6_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast6.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast6.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPast6.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPastImpersonal.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPastImpersonal.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="habitualPastImpersonal.neg" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="VerbHabitualPast" representedClassName=".VerbHabitualPast" syncable="YES">
+        <attribute name="habitualPast1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast2_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast2_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast2_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast3_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast3_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast3_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast4_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast4_1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast4_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast4_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast4_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast4_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast5_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast5_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast5_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast6_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast6_1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast6_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast6_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast6_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPast6_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPastImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPastImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="habitualPastImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="VerbImperative" syncable="YES">
-        <attribute name="imperative1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative2.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative2.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative3.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative3.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative4_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative4_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative4.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative4.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative5.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative5.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative6_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative6_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative6.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperative6.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperativeImpersonal.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="imperativeImpersonal.neg" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="VerbImperative" representedClassName=".VerbImperative" syncable="YES">
+        <attribute name="imperative1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative2_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative2_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative3_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative3_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative4_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative4_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative4_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative4_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative5_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative5_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative6_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative6_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative6_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperative6_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperativeImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imperativeImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="VerbPresent" syncable="YES">
-        <attribute name="present1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present2.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present2.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present2.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present3.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present3.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present3.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present4_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present4_1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present4_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present4.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present4.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present4.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present5.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present5.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present5.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present6.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present6.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="present6.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentImpersonal.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentImpersonal.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentImpersonal.neg" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="VerbPresent" representedClassName=".VerbPresent" syncable="YES">
+        <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present2_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present2_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present2_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present3_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present3_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present3_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present4_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present4_1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present4_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present4_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present4_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present4_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present5_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present5_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present5_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present6_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present6_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="present6_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="VerbPresentSubjunctive" syncable="YES">
-        <attribute name="presentSubjunctive1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive2.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive2.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive3.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive3.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive4_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive4_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive4.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive4.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive5.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive5.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive6.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctive6.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctiveImpersonal.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="presentSubjunctiveImpersonal.neg" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="VerbPresentSubjunctive" representedClassName=".VerbPresentSubjunctive" syncable="YES">
+        <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive2_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive2_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive3_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive3_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive4_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive4_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive4_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive4_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive5_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive5_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive6_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctive6_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctiveImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="presentSubjunctiveImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
-    <entity name="VerbSimplePast" syncable="YES">
-        <attribute name="simplePast1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast2.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast2.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast2.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast3.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast3.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast3.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast4_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast4_1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast4_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast4.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast4.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast4.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast5.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast5.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast5.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast6_1.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast6_1.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast6_1.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast6.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast6.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePast6.neg" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePastImpersonal.ind" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePastImpersonal.interr" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="simplePastImpersonal.neg" optional="YES" attributeType="String" syncable="YES"/>
+    <entity name="VerbSimplePast" representedClassName=".VerbSimplePast" syncable="YES">
+        <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast2_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast2_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast2_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast3_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast3_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast3_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast4_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast4_1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast4_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast4_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast4_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast4_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast5_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast5_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast5_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast6_1_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast6_1_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast6_1_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast6_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast6_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePast6_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePastImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePastImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="simplePastImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
         <element name="Verb" positionX="-416" positionY="-3141" width="128" height="105"/>
-        <element name="VerbConditional" positionX="0" positionY="-1323" width="128" height="450"/>
-        <element name="VerbFuture" positionX="0" positionY="-1395" width="128" height="405"/>
-        <element name="VerbHabitualPast" positionX="-9" positionY="-1260" width="128" height="450"/>
-        <element name="VerbImperative" positionX="0" positionY="-1150" width="128" height="315"/>
-        <element name="VerbPresent" positionX="-2" positionY="-1512" width="128" height="405"/>
-        <element name="VerbPresentSubjunctive" positionX="-2" positionY="-1087" width="128" height="285"/>
-        <element name="VerbSimplePast" positionX="0" positionY="-1206" width="128" height="450"/>
+        <element name="VerbConditional" positionX="0" positionY="-1323" width="128" height="465"/>
+        <element name="VerbFuture" positionX="0" positionY="-1395" width="128" height="420"/>
+        <element name="VerbHabitualPast" positionX="-9" positionY="-1260" width="128" height="465"/>
+        <element name="VerbImperative" positionX="0" positionY="-1150" width="128" height="330"/>
+        <element name="VerbPresent" positionX="-2" positionY="-1512" width="128" height="420"/>
+        <element name="VerbPresentSubjunctive" positionX="-2" positionY="-1087" width="128" height="300"/>
+        <element name="VerbSimplePast" positionX="0" positionY="-1206" width="128" height="465"/>
     </elements>
 </model>

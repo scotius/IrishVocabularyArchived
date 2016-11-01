@@ -82,9 +82,9 @@
 			children = (
 				D21EF9D81D755FEE00C3AF68 /* VerbDetailViewController.swift */,
 				D2129DB31D6FF81400533B3B /* VerbViewController.swift */,
+				D21EF9D31D73955600C3AF68 /* TenseViewController.swift */,
 				D22D032E1D6C0E0300DCD108 /* NounViewController.swift */,
 				D22D03411D6C206B00DCD108 /* NounDetailViewController.swift */,
-				D21EF9D31D73955600C3AF68 /* TenseViewController.swift */,
 				D27E05F71D7647E900E5B3DD /* AdjectiveViewController.swift */,
 				D27E05F91D76480400E5B3DD /* AdjectiveDetailViewController.swift */,
 				D27E05FB1D76482300E5B3DD /* AdverbViewController.swift */,

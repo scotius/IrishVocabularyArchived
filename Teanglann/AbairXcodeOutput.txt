@@ -1,0 +1,174 @@
+say
+abair
+rá
+ráite
+dúirt mé
+an ndúirt mé?
+ní dúirt mé
+dúirt tú
+an ndúirt tú?
+ní dúirt tú
+dúirt sé
+an ndúirt sé?
+ní dúirt sé
+dúramar
+an ndúramar?
+ní dúramar
+dúirt muid
+an ndúirt muid?
+ní dúirt muid
+dúirt sibh
+an ndúirt sibh?
+ní dúirt sibh
+dúirt siad
+an ndúirt siad?
+ní dúirt siad
+dúradar
+an ndúradar?
+ní dúradar
+dúradh
+an ndúradh?
+ní dúradh
+abair
+deirim
+an ndeirim?
+ní deirim
+deir tú
+an ndeir tú?
+ní deir tú
+deir sé
+an ndeir sé?
+ní deir sé
+deirimid
+an ndeirimid?
+ní deirimid
+deir muid
+an ndeir muid?
+ní deir muid
+deir sibh
+an ndeir sibh?
+ní deir sibh
+deir siad
+an ndeir siad?
+ní deir siad
+deirtear
+an ndeirtear?
+ní deirtear
+abair
+déarfaidh mé
+an ndéarfaidh mé?
+ní déarfaidh mé
+déarfaidh tú
+an ndéarfaidh tú?
+ní déarfaidh tú
+déarfaidh sé
+an ndéarfaidh sé?
+ní déarfaidh sé
+déarfaimid
+an ndéarfaimid?
+ní déarfaimid
+déarfaidh muid
+an ndéarfaidh muid?
+ní déarfaidh muid
+déarfaidh sibh
+an ndéarfaidh sibh?
+ní déarfaidh sibh
+déarfaidh siad
+an ndéarfaidh siad?
+ní déarfaidh siad
+déarfar
+an ndéarfar?
+ní déarfar
+abair
+déarfainn
+an ndéarfainn?
+ní déarfainn
+déarfá
+an ndéarfá?
+ní déarfá
+déarfadh sé
+an ndéarfadh sé?
+ní déarfadh sé
+déarfaimis
+an ndéarfaimis?
+ní déarfaimis
+déarfadh muid
+an ndéarfadh muid?
+ní déarfadh muid
+déarfadh sibh
+an ndéarfadh sibh?
+ní déarfadh sibh
+déarfaidís
+an ndéarfaidís?
+ní déarfaidís
+déarfadh siad
+an ndéarfadh siad?
+ní déarfadh siad
+déarfaí
+an ndéarfaí?
+ní déarfaí
+abair
+deirinn
+an ndeirinn?
+ní deirinn
+deirteá
+an ndeirteá?
+ní deirteá
+deireadh sé
+an ndeireadh sé?
+ní deireadh sé
+deirimis
+an ndeirimis?
+ní deirimis
+deireadh muid
+an ndeireadh muid?
+ní deireadh muid
+deireadh sibh
+an ndeireadh sibh?
+ní deireadh sibh
+deiridís
+an ndeiridís?
+ní deiridís
+deireadh siad
+an ndeireadh siad?
+ní deireadh siad
+deirtí
+an ndeirtí?
+ní deirtí
+abair
+abraim!
+ná habraim!
+abair!
+ná habair!
+abradh sé!
+ná habradh sé!
+abraimis!
+ná habraimis!
+abradh muid!
+ná habradh muid!
+abraigí!
+ná habraigí!
+abraidís!
+ná habraidís!
+abradh siad!
+ná habradh siad!
+abairtear!
+ná habairtear!
+abair
+go ndeire mé
+nár deire mé
+go ndeire tú
+nár deire tú
+go ndeire sé
+nár deire sé
+go ndeirimid
+nár deirimid
+go ndeire muid
+nár deire muid
+go ndeire sibh
+nár deire sibh
+go ndeire siad
+nár deire siad
+go ndeirtear
+nár deirtear
+abair
