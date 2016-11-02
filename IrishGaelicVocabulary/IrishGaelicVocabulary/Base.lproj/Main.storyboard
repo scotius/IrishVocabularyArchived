@@ -41,7 +41,7 @@
         <!--Verbs-->
         <scene sceneID="X23-4Q-gp2">
             <objects>
-                <viewController id="jaO-JW-k2x" sceneMemberID="viewController">
+                <viewController id="jaO-JW-k2x" customClass="VerbViewController" customModule="IrishGaelicVocabulary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="10O-MW-JFj"/>
                         <viewControllerLayoutGuide type="bottom" id="W79-M7-xCw"/>
@@ -62,11 +62,15 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="xF6-3U-Zsx" kind="show" id="XaD-Px-57d"/>
+                                            <segue destination="xF6-3U-Zsx" kind="show" identifier="verbsToTenses" id="qU3-Tl-jNo"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <sections/>
+                                <connections>
+                                    <outlet property="dataSource" destination="jaO-JW-k2x" id="lTo-kJ-vAJ"/>
+                                    <outlet property="delegate" destination="jaO-JW-k2x" id="zTw-rH-eEe"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -78,6 +82,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Verbs" id="AoB-rQ-gXT"/>
+                    <connections>
+                        <outlet property="tableView" destination="YH1-tS-S42" id="zj5-Ha-Bso"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R3v-dV-Cw9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,7 +93,7 @@
         <!--Tenses-->
         <scene sceneID="XZ5-Mq-bKu">
             <objects>
-                <viewController id="xF6-3U-Zsx" sceneMemberID="viewController">
+                <viewController id="xF6-3U-Zsx" customClass="VerbTenseViewController" customModule="IrishGaelicVocabulary" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xgE-Hz-qgE"/>
                         <viewControllerLayoutGuide type="bottom" id="Y8s-rp-r4f"/>
@@ -110,6 +117,20 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oXy-8h-ZB7">
                                 <rect key="frame" x="0.0" y="165" width="375" height="502"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="verbDetail" id="IXG-pS-mCv">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IXG-pS-mCv" id="kop-Yw-XIt">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="NJF-DF-rDU" kind="show" identifier="verbTenseToVerbDetail" id="tFs-ga-NmH"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -128,10 +149,48 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Tenses" id="gij-Ex-n0T"/>
+                    <connections>
+                        <outlet property="englishLabel" destination="SXb-3O-87e" id="vpj-Dy-YMG"/>
+                        <outlet property="infinitiveLabel" destination="YP9-kr-Tvq" id="Fqn-OY-vW8"/>
+                        <outlet property="tableView" destination="oXy-8h-ZB7" id="6gC-Zh-i4g"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Koi-T0-F3z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2593" y="124"/>
+        </scene>
+        <!--Verb Detail View Controller-->
+        <scene sceneID="SOm-Oa-AKH">
+            <objects>
+                <viewController id="NJF-DF-rDU" customClass="VerbDetailViewController" customModule="IrishGaelicVocabulary" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Bw1-7y-I4l"/>
+                        <viewControllerLayoutGuide type="bottom" id="k1L-Ap-iPw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="paE-1j-pga">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Ywi-uW-bBa">
+                                <rect key="frame" x="0.0" y="84" width="375" height="583"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ywi-uW-bBa" firstAttribute="top" secondItem="Bw1-7y-I4l" secondAttribute="bottom" constant="20" id="78B-TH-oGl"/>
+                            <constraint firstItem="Ywi-uW-bBa" firstAttribute="leading" secondItem="paE-1j-pga" secondAttribute="leading" id="NBW-dK-h4e"/>
+                            <constraint firstItem="k1L-Ap-iPw" firstAttribute="top" secondItem="Ywi-uW-bBa" secondAttribute="bottom" id="PkL-qu-Dvk"/>
+                            <constraint firstAttribute="trailing" secondItem="Ywi-uW-bBa" secondAttribute="trailing" id="ejJ-uz-dHS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Ywi-uW-bBa" id="0bx-Gv-tTz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3lY-wd-8br" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3280.8000000000002" y="88.605697151424295"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5Nb-f8-dDt">

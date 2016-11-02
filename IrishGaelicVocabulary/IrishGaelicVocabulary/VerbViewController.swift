@@ -12,6 +12,7 @@ import CoreData
 class VerbViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     
+  
     @IBOutlet weak var tableView: UITableView!
     
     var verbs : [Verb] = []
@@ -35,8 +36,7 @@ class VerbViewController: UIViewController, UITableViewDataSource, UITableViewDe
         let context = appDelegate.persistentContainer.viewContext
         let request = NSFetchRequest<NSFetchRequestResult>(entityName: "Verb")
         var results : [AnyObject]?
-        self.tableView.dataSource = self
-        self.tableView.delegate = self
+      
         
         do {
             results = try context.fetch(request)
@@ -73,14 +73,14 @@ class VerbViewController: UIViewController, UITableViewDataSource, UITableViewDe
         self.performSegue(withIdentifier: "verbsToTenses", sender: self)
     }
     
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "verbsToTenses"{
-//            let detailVC = segue.destination as! TenseViewController
-//            detailVC.verb = self.selectedVerb!
-//            
-//            
-//        }
-//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "verbsToTenses"{
+            let detailVC = segue.destination as! VerbTenseViewController
+            detailVC.verb = self.selectedVerb!
+            
+            
+        }
+    }
     
     func loadData() {
         guard let appDelegate =
@@ -90,8 +90,67 @@ class VerbViewController: UIViewController, UITableViewDataSource, UITableViewDe
         
         let context = appDelegate.persistentContainer.viewContext
         let verb = NSEntityDescription.insertNewObject(forEntityName: "Verb", into: context) as! Verb
+        let verbHabitualPast = NSEntityDescription.insertNewObject(forEntityName: "VerbHabitualPast", into: context) as! VerbHabitualPast
+        let verbSimplePast = NSEntityDescription.insertNewObject(forEntityName: "VerbSimplePast", into: context) as! VerbSimplePast
         
-       
+
+        
+verb.english = "say"
+verb.infinitive = "abair"
+verb.verbalAdjective = "ráite"
+verb.verbalNoun = "rá"
+        
+        verbSimplePast.simplePast1_ind	=	"dúirt mé"
+        verbSimplePast.simplePast1_interr	=	"an ndúirt mé?"
+        verbSimplePast.simplePast1_neg	=	"ní dúirt mé"
+        verbSimplePast.simplePast2_ind	=	"dúirt tú"
+        verbSimplePast.simplePast2_interr	=	"an ndúirt tú?"
+        verbSimplePast.simplePast2_neg	=	"ní dúirt tú"
+        verbSimplePast.simplePast3_ind	=	"dúirt sé"
+        verbSimplePast.simplePast3_interr	=	"an ndúirt sé?"
+        verbSimplePast.simplePast3_neg	=	"ní dúirt sé"
+        verbSimplePast.simplePast4_1_ind	=	"dúramar"
+        verbSimplePast.simplePast4_1_interr	=	"an ndúramar?"
+        verbSimplePast.simplePast4_1_neg	=	"ní dúramar"
+        verbSimplePast.simplePast4_ind	=	"dúirt muid"
+        verbSimplePast.simplePast4_interr	=	"an ndúirt muid?"
+        verbSimplePast.simplePast4_neg	=	"ní dúirt muid"
+        verbSimplePast.simplePast5_ind	=	"dúirt sibh"
+        verbSimplePast.simplePast5_interr	=	"an ndúirt sibh?"
+        verbSimplePast.simplePast5_neg	=	"ní dúirt sibh"
+        verbSimplePast.simplePast6_1_ind	=	"dúirt siad"
+        verbSimplePast.simplePast6_1_interr	=	"an ndúirt siad?"
+        verbSimplePast.simplePast6_1_neg	=	"ní dúirt siad"
+        verbSimplePast.simplePast6_ind	=	"dúradar"
+        verbSimplePast.simplePast6_interr	=	"an ndúradar?"
+        verbSimplePast.simplePast6_neg	=	"ní dúradar"
+        verbSimplePast.simplePastImpersonal_ind	=	"dúradh"
+        verbSimplePast.simplePastImpersonal_interr	=	"an ndúradh?"
+        verbSimplePast.simplePastImpersonal_neg	=	"ní dúradh"
+        
+//verb.english = "bury"
+//verb.infinitive = "adhlaic"
+//verb.verbalAdjective = "adhlactha"
+//verb.verbalNoun = "adhlacadh"
+        
+//verb.english = "acknowledge, admit"
+//verb.infinitive = "admhaigh"
+//verb.verbalAdjective = "adhlactha"
+//verb.verbalNoun = "adhlacadh"
+
+//verb.english = "bake"
+//verb.infinitive = "bácáil"
+//verb.verbalAdjective = "bácálta"
+//verb.verbalNoun = "bácáladh"
+        
+//verb.english = "order"
+//verb.infinitive = "ordaigh"
+//verb.verbalAdjective = "ordaithe"
+//verb.verbalNoun = "ordú"
+
+
+        
+        
         
         //                        verb.conditional1s = "d'adhlacfainn"
         //                        verb.conditional2s = "d'adhlacfá"
