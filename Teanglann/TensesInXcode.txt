@@ -59,7 +59,7 @@ future1_ind
 future1_interr
 future1_neg
 future2_ind
-future_interr
+future2_interr
 future2_neg
 future3_ind
 future3_interr

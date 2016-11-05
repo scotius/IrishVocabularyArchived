@@ -1,8 +1,8 @@
 //
-//  Verb+CoreDataProperties.swift
+//  VerbDescription+CoreDataProperties.swift
 //  IrishGaelicVocabulary
 //
-//  Created by Scott on 10/26/16.
+//  Created by Scott on 11/3/16.
 //  Copyright © 2016 Scott. All rights reserved.
 //
 
@@ -10,10 +10,10 @@ import Foundation
 import CoreData
 
 
-extension Verb {
+extension VerbDescription {
 
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Verb> {
-        return NSFetchRequest<Verb>(entityName: "Verb");
+    @nonobjc public class func fetchRequest() -> NSFetchRequest<VerbDescription> {
+        return NSFetchRequest<VerbDescription>(entityName: "VerbDescription");
     }
 
     @NSManaged public var english: String?

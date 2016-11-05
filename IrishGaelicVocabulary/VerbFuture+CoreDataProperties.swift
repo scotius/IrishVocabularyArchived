@@ -2,7 +2,7 @@
 //  VerbFuture+CoreDataProperties.swift
 //  IrishGaelicVocabulary
 //
-//  Created by Scott on 10/26/16.
+//  Created by Scott on 11/2/16.
 //  Copyright © 2016 Scott. All rights reserved.
 //
 
@@ -16,11 +16,11 @@ extension VerbFuture {
         return NSFetchRequest<VerbFuture>(entityName: "VerbFuture");
     }
 
+    @NSManaged public var future2_interr: String?
     @NSManaged public var future1_ind: String?
     @NSManaged public var future1_interr: String?
     @NSManaged public var future1_neg: String?
     @NSManaged public var future2_ind: String?
-    @NSManaged public var future_interr: String?
     @NSManaged public var future2_neg: String?
     @NSManaged public var future3_ind: String?
     @NSManaged public var future3_interr: String?

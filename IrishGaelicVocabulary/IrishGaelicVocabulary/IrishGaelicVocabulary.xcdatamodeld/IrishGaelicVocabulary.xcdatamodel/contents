@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1108" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <entity name="Verb" representedClassName=".Verb" syncable="YES">
-        <attribute name="english" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="verbalAdjective" optional="YES" attributeType="String" syncable="YES"/>
-        <attribute name="verbalNoun" optional="YES" attributeType="String" syncable="YES"/>
-    </entity>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="15G1108" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="VerbConditional" representedClassName=".VerbConditional" syncable="YES">
         <attribute name="conditional1_ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="conditional1_interr" optional="YES" attributeType="String" syncable="YES"/>
@@ -35,13 +29,27 @@
         <attribute name="conditionalImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="conditionalImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="verbDescription" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbDescription" inverseName="verbConditional" inverseEntity="VerbDescription" syncable="YES"/>
+    </entity>
+    <entity name="VerbDescription" representedClassName=".VerbDescription" syncable="YES">
+        <attribute name="english" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="verbalAdjective" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="verbalNoun" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="verbConditional" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbConditional" inverseName="verbDescription" inverseEntity="VerbConditional" syncable="YES"/>
+        <relationship name="verbFuture" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbFuture" inverseName="verbDescription" inverseEntity="VerbFuture" syncable="YES"/>
+        <relationship name="verbHabitualPast" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbHabitualPast" inverseName="verbDescription" inverseEntity="VerbHabitualPast" syncable="YES"/>
+        <relationship name="verbImperative" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbImperative" inverseName="verbDescription" inverseEntity="VerbImperative" syncable="YES"/>
+        <relationship name="verbPresent" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbPresent" inverseName="verbDescription" inverseEntity="VerbPresent" syncable="YES"/>
+        <relationship name="verbPresentSubjunctive" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbPresentSubjunctive" inverseName="verbDescription" inverseEntity="VerbPresentSubjunctive" syncable="YES"/>
+        <relationship name="verbSimplePast" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbSimplePast" inverseName="verbDescription" inverseEntity="VerbSimplePast" syncable="YES"/>
     </entity>
     <entity name="VerbFuture" representedClassName=".VerbFuture" syncable="YES">
-        <attribute name="future_interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="future1_ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="future1_interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="future1_neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="future2_ind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="future2_interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="future2_neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="future3_ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="future3_interr" optional="YES" attributeType="String" syncable="YES"/>
@@ -62,6 +70,7 @@
         <attribute name="futureImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="futureImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="verbDescription" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbDescription" inverseName="verbFuture" inverseEntity="VerbDescription" syncable="YES"/>
     </entity>
     <entity name="VerbHabitualPast" representedClassName=".VerbHabitualPast" syncable="YES">
         <attribute name="habitualPast1_ind" optional="YES" attributeType="String" syncable="YES"/>
@@ -92,6 +101,7 @@
         <attribute name="habitualPastImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="habitualPastImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="verbDescription" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbDescription" inverseName="verbHabitualPast" inverseEntity="VerbDescription" syncable="YES"/>
     </entity>
     <entity name="VerbImperative" representedClassName=".VerbImperative" syncable="YES">
         <attribute name="imperative1_ind" optional="YES" attributeType="String" syncable="YES"/>
@@ -113,6 +123,7 @@
         <attribute name="imperativeImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="imperativeImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="verbDescription" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbDescription" inverseName="verbImperative" inverseEntity="VerbDescription" syncable="YES"/>
     </entity>
     <entity name="VerbPresent" representedClassName=".VerbPresent" syncable="YES">
         <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
@@ -140,6 +151,7 @@
         <attribute name="presentImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="presentImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="presentImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="verbDescription" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbDescription" inverseName="verbPresent" inverseEntity="VerbDescription" syncable="YES"/>
     </entity>
     <entity name="VerbPresentSubjunctive" representedClassName=".VerbPresentSubjunctive" syncable="YES">
         <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
@@ -159,6 +171,7 @@
         <attribute name="presentSubjunctive6_neg" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="presentSubjunctiveImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="presentSubjunctiveImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="verbDescription" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbDescription" inverseName="verbPresentSubjunctive" inverseEntity="VerbDescription" syncable="YES"/>
     </entity>
     <entity name="VerbSimplePast" representedClassName=".VerbSimplePast" syncable="YES">
         <attribute name="infinitive" optional="YES" attributeType="String" syncable="YES"/>
@@ -189,15 +202,16 @@
         <attribute name="simplePastImpersonal_ind" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="simplePastImpersonal_interr" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="simplePastImpersonal_neg" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="verbDescription" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VerbDescription" inverseName="verbSimplePast" inverseEntity="VerbDescription" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Verb" positionX="-416" positionY="-3141" width="128" height="105"/>
-        <element name="VerbConditional" positionX="0" positionY="-1323" width="128" height="465"/>
-        <element name="VerbFuture" positionX="0" positionY="-1395" width="128" height="420"/>
-        <element name="VerbHabitualPast" positionX="-9" positionY="-1260" width="128" height="465"/>
-        <element name="VerbImperative" positionX="0" positionY="-1150" width="128" height="330"/>
-        <element name="VerbPresent" positionX="-2" positionY="-1512" width="128" height="420"/>
-        <element name="VerbPresentSubjunctive" positionX="-2" positionY="-1087" width="128" height="300"/>
-        <element name="VerbSimplePast" positionX="0" positionY="-1206" width="128" height="465"/>
+        <element name="VerbConditional" positionX="-126" positionY="-1593" width="128" height="478"/>
+        <element name="VerbDescription" positionX="-909" positionY="-2070" width="128" height="208"/>
+        <element name="VerbFuture" positionX="-263" positionY="-1593" width="128" height="433"/>
+        <element name="VerbHabitualPast" positionX="27" positionY="-1584" width="128" height="478"/>
+        <element name="VerbImperative" positionX="0" positionY="-1150" width="128" height="343"/>
+        <element name="VerbPresent" positionX="-414" positionY="-1602" width="128" height="433"/>
+        <element name="VerbPresentSubjunctive" positionX="-2" positionY="-1087" width="128" height="313"/>
+        <element name="VerbSimplePast" positionX="7" positionY="-2130" width="128" height="478"/>
     </elements>
 </model>

@@ -10,7 +10,6 @@
 		D210A5B81DC113EA007C32EA /* VerbPresent+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210A5AA1DC113EA007C32EA /* VerbPresent+CoreDataClass.swift */; };
 		D210A5B91DC113EA007C32EA /* VerbPresent+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210A5AB1DC113EA007C32EA /* VerbPresent+CoreDataProperties.swift */; };
 		D210A5BA1DC113EA007C32EA /* VerbFuture+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210A5AC1DC113EA007C32EA /* VerbFuture+CoreDataClass.swift */; };
-		D210A5BB1DC113EA007C32EA /* VerbFuture+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210A5AD1DC113EA007C32EA /* VerbFuture+CoreDataProperties.swift */; };
 		D210A5BC1DC113EA007C32EA /* VerbSimplePast+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210A5AE1DC113EA007C32EA /* VerbSimplePast+CoreDataClass.swift */; };
 		D210A5BD1DC113EA007C32EA /* VerbSimplePast+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210A5AF1DC113EA007C32EA /* VerbSimplePast+CoreDataProperties.swift */; };
 		D210A5BE1DC113EA007C32EA /* VerbConditional+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210A5B01DC113EA007C32EA /* VerbConditional+CoreDataClass.swift */; };
@@ -22,6 +21,10 @@
 		D210A5C41DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210A5B61DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataClass.swift */; };
 		D210A5C51DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D210A5B71DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataProperties.swift */; };
 		D2681B7F1DCA2CAF00781A52 /* VerbDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2681B7E1DCA2CAF00781A52 /* VerbDetailViewController.swift */; };
+		D26C8F3D1DCBCEC400E5A009 /* VerbDescription+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C8F3B1DCBCEC400E5A009 /* VerbDescription+CoreDataClass.swift */; };
+		D26C8F3E1DCBCEC400E5A009 /* VerbDescription+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C8F3C1DCBCEC400E5A009 /* VerbDescription+CoreDataProperties.swift */; };
+		D26C8F401DCBCF0600E5A009 /* Verb.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26C8F3F1DCBCF0600E5A009 /* Verb.swift */; };
+		D2B7B2721DCACB0500DE76CA /* VerbFuture+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2B7B2711DCACB0500DE76CA /* VerbFuture+CoreDataProperties.swift */; };
 		D2CB7C261DA047D30032B342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB7C251DA047D30032B342 /* AppDelegate.swift */; };
 		D2CB7C281DA047D30032B342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB7C271DA047D30032B342 /* ViewController.swift */; };
 		D2CB7C2B1DA047D30032B342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CB7C291DA047D30032B342 /* Main.storyboard */; };
@@ -30,15 +33,12 @@
 		D2CB7C331DA047D30032B342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2CB7C311DA047D30032B342 /* LaunchScreen.storyboard */; };
 		D2D3286E1DCA27CF004F7152 /* VerbTenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D3286D1DCA27CF004F7152 /* VerbTenseViewController.swift */; };
 		D2DAF58F1DC3E69B00215D9F /* VerbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2DAF58E1DC3E69B00215D9F /* VerbViewController.swift */; };
-		D2F9B2C31DC101F700D38035 /* Verb+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9B2C11DC101F700D38035 /* Verb+CoreDataClass.swift */; };
-		D2F9B2C41DC101F700D38035 /* Verb+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F9B2C21DC101F700D38035 /* Verb+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D210A5AA1DC113EA007C32EA /* VerbPresent+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbPresent+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D210A5AB1DC113EA007C32EA /* VerbPresent+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbPresent+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D210A5AC1DC113EA007C32EA /* VerbFuture+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbFuture+CoreDataClass.swift"; sourceTree = "<group>"; };
-		D210A5AD1DC113EA007C32EA /* VerbFuture+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbFuture+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D210A5AE1DC113EA007C32EA /* VerbSimplePast+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbSimplePast+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D210A5AF1DC113EA007C32EA /* VerbSimplePast+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbSimplePast+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D210A5B01DC113EA007C32EA /* VerbConditional+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbConditional+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -50,6 +50,10 @@
 		D210A5B61DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbPresentSubjunctive+CoreDataClass.swift"; sourceTree = "<group>"; };
 		D210A5B71DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbPresentSubjunctive+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D2681B7E1DCA2CAF00781A52 /* VerbDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbDetailViewController.swift; sourceTree = "<group>"; };
+		D26C8F3B1DCBCEC400E5A009 /* VerbDescription+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbDescription+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D26C8F3C1DCBCEC400E5A009 /* VerbDescription+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbDescription+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D26C8F3F1DCBCF0600E5A009 /* Verb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verb.swift; sourceTree = "<group>"; };
+		D2B7B2711DCACB0500DE76CA /* VerbFuture+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerbFuture+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		D2CB7C221DA047D30032B342 /* IrishGaelicVocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrishGaelicVocabulary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CB7C251DA047D30032B342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CB7C271DA047D30032B342 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,8 +64,6 @@
 		D2CB7C341DA047D30032B342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2D3286D1DCA27CF004F7152 /* VerbTenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerbTenseViewController.swift; sourceTree = "<group>"; };
 		D2DAF58E1DC3E69B00215D9F /* VerbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VerbViewController.swift; path = IrishGaelicVocabulary/VerbViewController.swift; sourceTree = "<group>"; };
-		D2F9B2C11DC101F700D38035 /* Verb+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Verb+CoreDataClass.swift"; sourceTree = "<group>"; };
-		D2F9B2C21DC101F700D38035 /* Verb+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Verb+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +112,12 @@
 		D2D3286B1DCA2734004F7152 /* CoreDataClasses */ = {
 			isa = PBXGroup;
 			children = (
+				D26C8F3B1DCBCEC400E5A009 /* VerbDescription+CoreDataClass.swift */,
+				D26C8F3C1DCBCEC400E5A009 /* VerbDescription+CoreDataProperties.swift */,
 				D210A5AA1DC113EA007C32EA /* VerbPresent+CoreDataClass.swift */,
 				D210A5AB1DC113EA007C32EA /* VerbPresent+CoreDataProperties.swift */,
+				D2B7B2711DCACB0500DE76CA /* VerbFuture+CoreDataProperties.swift */,
 				D210A5AC1DC113EA007C32EA /* VerbFuture+CoreDataClass.swift */,
-				D210A5AD1DC113EA007C32EA /* VerbFuture+CoreDataProperties.swift */,
 				D210A5AE1DC113EA007C32EA /* VerbSimplePast+CoreDataClass.swift */,
 				D210A5AF1DC113EA007C32EA /* VerbSimplePast+CoreDataProperties.swift */,
 				D210A5B01DC113EA007C32EA /* VerbConditional+CoreDataClass.swift */,
@@ -124,8 +128,6 @@
 				D210A5B51DC113EA007C32EA /* VerbHabitualPast+CoreDataProperties.swift */,
 				D210A5B61DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataClass.swift */,
 				D210A5B71DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataProperties.swift */,
-				D2F9B2C11DC101F700D38035 /* Verb+CoreDataClass.swift */,
-				D2F9B2C21DC101F700D38035 /* Verb+CoreDataProperties.swift */,
 			);
 			name = CoreDataClasses;
 			sourceTree = "<group>";
@@ -136,6 +138,7 @@
 				D2DAF58E1DC3E69B00215D9F /* VerbViewController.swift */,
 				D2D3286D1DCA27CF004F7152 /* VerbTenseViewController.swift */,
 				D2681B7E1DCA2CAF00781A52 /* VerbDetailViewController.swift */,
+				D26C8F3F1DCBCF0600E5A009 /* Verb.swift */,
 			);
 			name = "Verb Classes";
 			sourceTree = "<group>";
@@ -213,25 +216,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D26C8F401DCBCF0600E5A009 /* Verb.swift in Sources */,
 				D2681B7F1DCA2CAF00781A52 /* VerbDetailViewController.swift in Sources */,
 				D210A5BD1DC113EA007C32EA /* VerbSimplePast+CoreDataProperties.swift in Sources */,
 				D210A5C51DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataProperties.swift in Sources */,
 				D2CB7C281DA047D30032B342 /* ViewController.swift in Sources */,
-				D2F9B2C41DC101F700D38035 /* Verb+CoreDataProperties.swift in Sources */,
 				D210A5B91DC113EA007C32EA /* VerbPresent+CoreDataProperties.swift in Sources */,
 				D210A5C21DC113EA007C32EA /* VerbHabitualPast+CoreDataClass.swift in Sources */,
 				D210A5C41DC113EA007C32EA /* VerbPresentSubjunctive+CoreDataClass.swift in Sources */,
 				D210A5C01DC113EA007C32EA /* VerbImperative+CoreDataClass.swift in Sources */,
-				D210A5BB1DC113EA007C32EA /* VerbFuture+CoreDataProperties.swift in Sources */,
+				D26C8F3D1DCBCEC400E5A009 /* VerbDescription+CoreDataClass.swift in Sources */,
 				D2DAF58F1DC3E69B00215D9F /* VerbViewController.swift in Sources */,
 				D210A5BE1DC113EA007C32EA /* VerbConditional+CoreDataClass.swift in Sources */,
+				D2B7B2721DCACB0500DE76CA /* VerbFuture+CoreDataProperties.swift in Sources */,
 				D210A5B81DC113EA007C32EA /* VerbPresent+CoreDataClass.swift in Sources */,
 				D2D3286E1DCA27CF004F7152 /* VerbTenseViewController.swift in Sources */,
 				D2CB7C261DA047D30032B342 /* AppDelegate.swift in Sources */,
 				D210A5C31DC113EA007C32EA /* VerbHabitualPast+CoreDataProperties.swift in Sources */,
 				D210A5BC1DC113EA007C32EA /* VerbSimplePast+CoreDataClass.swift in Sources */,
+				D26C8F3E1DCBCEC400E5A009 /* VerbDescription+CoreDataProperties.swift in Sources */,
 				D210A5BF1DC113EA007C32EA /* VerbConditional+CoreDataProperties.swift in Sources */,
-				D2F9B2C31DC101F700D38035 /* Verb+CoreDataClass.swift in Sources */,
 				D210A5C11DC113EA007C32EA /* VerbImperative+CoreDataProperties.swift in Sources */,
 				D2CB7C2E1DA047D30032B342 /* IrishGaelicVocabulary.xcdatamodeld in Sources */,
 				D210A5BA1DC113EA007C32EA /* VerbFuture+CoreDataClass.swift in Sources */,
